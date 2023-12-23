@@ -1,6 +1,6 @@
 from flask import Flask
 
-app =(__Flask__)
+app = Flask(__name__)
 
 @app.route('/')
 def ab():
